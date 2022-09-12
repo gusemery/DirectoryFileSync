@@ -77,8 +77,9 @@ namespace MyApp // Note: actual namespace depends on the project name.
                     }
                     catch (Exception ex)
                     {
-
-                        throw;
+                        string Error = "Error copying file " + file;
+                        File.WriteAllText("errors.txt", Error);
+                        //throw;
                     }
                 }
             }
