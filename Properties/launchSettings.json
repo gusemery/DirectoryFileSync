@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DirectoryFileSync": {
+      "commandName": "Project",
+      "commandLineArgs": "c:\\source c:\\backup"
+    }
+  }
+}
